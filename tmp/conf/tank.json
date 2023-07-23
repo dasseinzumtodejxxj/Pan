@@ -1,0 +1,12 @@
+{
+ "ServerPort": 6010,
+ "MatterPath": "",
+ "DbType": "mysql",
+ "MysqlPort": 3306,
+ "MysqlHost": "127.0.0.1",
+ "MysqlSchema": "tank",
+ "MysqlUsername": "root",
+ "MysqlPassword": "ZSY123456",
+ "MysqlCharset": "utf8",
+ "SqliteFolder": ""
+}

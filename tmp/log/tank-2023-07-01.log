@@ -1,0 +1,194 @@
+[INFO ]19:39:11 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:39:11 tank_config.go:135: cannot find config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json, installation will start!
+[INFO ]19:39:11 tank_application.go:153: App started at http://localhost:6010
+[ERROR]19:40:22 tank_router.go:98: panic on tank_router.go:189 application not installed
+[INFO ]19:40:22 footprint_service.go:90: Ip:[ Cost:3 Uri:/api/preference/fetch Params:{}
+[ERROR]19:40:23 tank_router.go:98: panic on tank_router.go:189 application not installed
+[INFO ]19:40:23 footprint_service.go:90: Ip:[ Cost:2 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:40:45 install_controller.go:151: Connect MySQL root:ZSY1234567@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]19:40:45 tank_router.go:98: panic on install_controller.go:155 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ]19:40:45 footprint_service.go:90: Ip:[ Cost:54 Uri:/api/install/verify Params:{"dbType":["mysql"],"mysqlCharset":["utf8"],"mysqlHost":["127.0.0.1"],"mysqlPassword":["ZSY1234567"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["root"]}
+[INFO ]19:40:59 install_controller.go:151: Connect MySQL root:ZSY1234567@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]19:40:59 tank_router.go:98: panic on install_controller.go:155 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ]19:40:59 footprint_service.go:90: Ip:[ Cost:31 Uri:/api/install/verify Params:{"dbType":["mysql"],"mysqlCharset":["utf8"],"mysqlHost":["127.0.0.1"],"mysqlPassword":["ZSY1234567"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["root"]}
+[INFO ]19:41:00 install_controller.go:151: Connect MySQL root:ZSY1234567@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]19:41:00 tank_router.go:98: panic on install_controller.go:155 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ]19:41:00 footprint_service.go:90: Ip:[ Cost:25 Uri:/api/install/verify Params:{"dbType":["mysql"],"mysqlCharset":["utf8"],"mysqlHost":["127.0.0.1"],"mysqlPassword":["ZSY1234567"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["root"]}
+[INFO ]19:41:13 install_controller.go:151: Connect MySQL tank:ZSY1234567@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]19:41:13 tank_router.go:98: panic on install_controller.go:155 Error 1045: Access denied for user 'tank'@'localhost' (using password: YES)
+[INFO ]19:41:13 footprint_service.go:90: Ip:[ Cost:69 Uri:/api/install/verify Params:{"dbType":["mysql"],"mysqlCharset":["utf8"],"mysqlHost":["127.0.0.1"],"mysqlPassword":["ZSY1234567"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]19:41:39 install_controller.go:151: Connect MySQL root:ZSY1234567@tcp(127.0.0.1:3306)/tank?charset=utf8mb4&parseTime=True&loc=Local
+[ERROR]19:41:39 tank_router.go:98: panic on install_controller.go:155 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ]19:41:39 footprint_service.go:90: Ip:[ Cost:60 Uri:/api/install/verify Params:{"dbType":["mysql"],"mysqlCharset":["utf8mb4"],"mysqlHost":["127.0.0.1"],"mysqlPassword":["ZSY1234567"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["root"]}
+[INFO ]19:42:47 install_controller.go:151: Connect MySQL root:ZSY1234567@tcp(127.0.0.1:3306)/tank?charset=utf8mb4&parseTime=True&loc=Local
+[ERROR]19:42:47 tank_router.go:98: panic on install_controller.go:155 Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+[INFO ]19:42:47 footprint_service.go:90: Ip:[ Cost:35 Uri:/api/install/verify Params:{"dbType":["mysql"],"mysqlCharset":["utf8mb4"],"mysqlHost":["127.0.0.1"],"mysqlPassword":["ZSY1234567"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["root"]}
+[INFO ]19:44:47 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:44:47 tank_config.go:135: cannot find config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json, installation will start!
+[INFO ]19:44:47 tank_application.go:153: App started at http://localhost:6010
+[ERROR]19:44:56 tank_router.go:98: panic on tank_router.go:189 application not installed
+[INFO ]19:44:56 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]19:45:13 install_controller.go:151: Connect MySQL root:ZSY123456@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[INFO ]19:45:13 install_controller.go:275: Ping DB
+[INFO ]19:45:24 install_controller.go:151: Connect MySQL root:ZSY123456@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[INFO ]19:45:42 install_controller.go:151: Connect MySQL root:ZSY123456@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[INFO ]19:45:49 install_controller.go:151: Connect MySQL root:ZSY123456@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[INFO ]19:46:43 install_controller.go:151: Connect MySQL root:ZSY123456@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[INFO ]19:46:45 install_controller.go:151: Connect MySQL root:ZSY123456@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[WARN ]19:46:46 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:46:46 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:46:46 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]19:46:46 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]19:46:46 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]19:46:46 footprint_service.go:107: Delete footprint data before 2023-06-23 00:00:00
+[INFO ]19:46:46 dashboard_service.go:72: ETL dashboard data from 2023-06-30 00:00:00 to 2023-06-30 23:59:59
+[INFO ]19:46:46 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]19:46:46 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]19:46:46 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]19:46:46 task_service.go:170: scan task not enabled.
+[INFO ]19:46:46 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 0, UV = 0, totalUV = 0, matterNum = 0, totalMatterNum = 0
+[INFO ]19:46:46 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:46:46 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]19:46:46 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 0, UV = 0, totalUV = 0, matterNum = 0, totalMatterNum = 0
+[INFO ]19:46:46 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:46:47 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[ERROR]19:46:47 tank_router.go:98: panic on base_bean.go:66 &{LOGIN 401 not login}
+[INFO ]19:46:47 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:46:47 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/logout Params:{}
+[INFO ]19:47:06 footprint_service.go:90: Ip:[ Cost:145 Uri:/api/user/login Params:{"password":["******"],"username":["xuejian"]}
+[INFO ]19:47:06 footprint_service.go:90: Ip:[ Cost:53 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:52:50 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:52:50 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:52:50 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:52:50 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]19:52:50 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]19:52:50 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]19:52:50 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]19:52:50 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]19:52:50 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]19:52:50 dashboard_service.go:72: ETL dashboard data from 2023-06-30 00:00:00 to 2023-06-30 23:59:59
+[INFO ]19:52:50 footprint_service.go:107: Delete footprint data before 2023-06-23 00:00:00
+[INFO ]19:52:50 task_service.go:170: scan task not enabled.
+[INFO ]19:52:50 tank_application.go:153: App started at http://localhost:6010
+[INFO ]19:52:50 dashboard_service.go:77:  2023-06-30 already exits. delete it and insert new one.
+[INFO ]19:52:50 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 5, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:52:50 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:52:50 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]19:52:50 dashboard_service.go:77:  2023-07-01 already exits. delete it and insert new one.
+[INFO ]19:52:50 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 5, totalInvokeNum = 5, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:52:50 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 39
+[INFO ]19:52:58 footprint_service.go:90: Ip:[ Cost:5 Uri:/api/preference/fetch Params:{}
+[INFO ]19:52:58 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:52:59 footprint_service.go:90: Ip:[ Cost:16 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:54:34 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:54:34 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:54:34 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:54:34 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]19:54:34 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]19:54:34 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]19:54:34 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]19:54:34 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]19:54:34 dashboard_service.go:72: ETL dashboard data from 2023-06-30 00:00:00 to 2023-06-30 23:59:59
+[INFO ]19:54:34 task_service.go:170: scan task not enabled.
+[INFO ]19:54:34 dashboard_service.go:77:  2023-06-30 already exits. delete it and insert new one.
+[INFO ]19:54:34 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]19:54:34 tank_application.go:153: App started at http://localhost:6010
+[INFO ]19:54:34 footprint_service.go:107: Delete footprint data before 2023-06-23 00:00:00
+[INFO ]19:54:34 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 8, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:54:34 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:54:34 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]19:54:34 dashboard_service.go:77:  2023-07-01 already exits. delete it and insert new one.
+[INFO ]19:54:34 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 8, totalInvokeNum = 8, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:54:34 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 27
+[INFO ]19:55:04 footprint_service.go:90: Ip:[ Cost:6 Uri:/api/preference/fetch Params:{}
+[INFO ]19:55:04 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:55:05 footprint_service.go:90: Ip:[ Cost:22 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:55:34 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]19:55:34 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:55:34 footprint_service.go:90: Ip:[ Cost:8 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:55:57 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:55:57 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:55:57 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:55:57 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]19:55:57 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]19:55:57 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]19:55:57 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]19:55:57 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]19:55:57 footprint_service.go:107: Delete footprint data before 2023-06-23 00:00:00
+[INFO ]19:55:57 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]19:55:57 dashboard_service.go:72: ETL dashboard data from 2023-06-30 00:00:00 to 2023-06-30 23:59:59
+[INFO ]19:55:57 task_service.go:170: scan task not enabled.
+[INFO ]19:55:57 tank_application.go:153: App started at http://localhost:6010
+[INFO ]19:55:57 dashboard_service.go:77:  2023-06-30 already exits. delete it and insert new one.
+[INFO ]19:55:57 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 14, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:55:57 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:55:57 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]19:55:57 dashboard_service.go:77:  2023-07-01 already exits. delete it and insert new one.
+[INFO ]19:55:57 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 14, totalInvokeNum = 14, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:55:57 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 18
+[INFO ]19:56:22 footprint_service.go:90: Ip:[ Cost:6 Uri:/api/preference/fetch Params:{}
+[INFO ]19:56:22 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:56:22 footprint_service.go:90: Ip:[ Cost:5 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:57:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]19:57:16 footprint_service.go:90: Ip:[ Cost:1 Uri:/api/user/info Params:{}
+[INFO ]19:57:17 footprint_service.go:90: Ip:[ Cost:13 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:58:24 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:58:24 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:58:24 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:58:24 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]19:58:24 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]19:58:24 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]19:58:24 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]19:58:24 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]19:58:24 footprint_service.go:107: Delete footprint data before 2023-06-23 00:00:00
+[INFO ]19:58:24 task_service.go:170: scan task not enabled.
+[INFO ]19:58:24 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]19:58:24 tank_application.go:153: App started at http://localhost:6010
+[INFO ]19:58:24 dashboard_service.go:72: ETL dashboard data from 2023-06-30 00:00:00 to 2023-06-30 23:59:59
+[INFO ]19:58:24 dashboard_service.go:77:  2023-06-30 already exits. delete it and insert new one.
+[INFO ]19:58:24 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 20, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:58:24 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:58:24 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]19:58:24 dashboard_service.go:77:  2023-07-01 already exits. delete it and insert new one.
+[INFO ]19:58:24 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 20, totalInvokeNum = 20, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:58:24 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 14
+[INFO ]19:58:35 footprint_service.go:90: Ip:[ Cost:7 Uri:/api/preference/fetch Params:{}
+[INFO ]19:58:35 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:58:35 footprint_service.go:90: Ip:[ Cost:3 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:58:50 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:58:50 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:58:50 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]19:58:50 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]19:58:50 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]19:58:50 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]19:58:50 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]19:58:50 footprint_service.go:107: Delete footprint data before 2023-06-23 00:00:00
+[INFO ]19:58:50 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]19:58:50 task_service.go:170: scan task not enabled.
+[INFO ]19:58:50 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]19:58:50 tank_application.go:153: App started at http://localhost:6010
+[INFO ]19:58:50 dashboard_service.go:72: ETL dashboard data from 2023-06-30 00:00:00 to 2023-06-30 23:59:59
+[INFO ]19:58:50 dashboard_service.go:77:  2023-06-30 already exits. delete it and insert new one.
+[INFO ]19:58:50 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 23, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:58:50 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]19:58:50 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]19:58:50 dashboard_service.go:77:  2023-07-01 already exits. delete it and insert new one.
+[INFO ]19:58:50 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 23, totalInvokeNum = 23, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 0
+[INFO ]19:58:50 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 12
+[INFO ]19:58:53 footprint_service.go:90: Ip:[ Cost:32 Uri:/api/preference/fetch Params:{}
+[INFO ]19:58:53 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:58:53 footprint_service.go:90: Ip:[ Cost:166 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:59:03 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[ERROR]19:59:04 tank_router.go:98: panic on base_bean.go:66 &{LOGIN 401 not login}
+[INFO ]19:59:04 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]19:59:04 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/logout Params:{}
+[INFO ]19:59:15 matter_service.go:395: upload 一回到家就不搭理人的臭佳鑫姐的以及我确实没有好好写以致于图都没有放的但又觉得应该够用的了毕竟臭姐姐也不喜欢出门的一份粗糙的杭州攻略.docx 207.7kB 
+[INFO ]19:59:15 footprint_service.go:90: Ip:[ Cost:27 Uri:/api/matter/upload Params:{"alien":["false"],"privacy":["true"],"puuid":["root"],"userUuid":["226bb1a4-5577-499d-4818-0256c6531539"]}
+[INFO ]19:59:15 footprint_service.go:90: Ip:[ Cost:28 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]19:59:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]20:00:16 footprint_service.go:90: Ip:[ Cost:7 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]20:00:17 footprint_service.go:90: Ip:[ Cost:9 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]20:06:40 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:06:41 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]20:06:41 footprint_service.go:90: Ip:[ Cost:21 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]14:47:48 tank_logger.go:89: maintain log

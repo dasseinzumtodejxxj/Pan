@@ -1,0 +1,117 @@
+try to delete log file %s13:37:14 cron.go:136: /Users/xuejian/GolandProjects/tank_master/tmp/log/tank-2023-06-08.log
+[ERROR]13:37:14 tank_logger.go:122: log file /Users/xuejian/GolandProjects/tank_master/tmp/log/tank-2023-06-08.log not exist, skip
+[INFO ]13:42:14 dashboard_service.go:72: ETL dashboard data from 2023-07-07 00:00:00 to 2023-07-07 23:59:59
+[INFO ]13:42:15 dashboard_service.go:77:  2023-07-07 already exits. delete it and insert new one.
+[INFO ]13:42:16 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 14, totalInvokeNum = 64, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]13:42:16 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 204
+[INFO ]13:42:16 dashboard_service.go:72: ETL dashboard data from 2023-07-08 00:00:00 to 2023-07-08 23:59:59
+[INFO ]13:42:16 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 64, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]13:42:16 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]13:47:14 footprint_service.go:107: Delete footprint data before 2023-06-30 00:00:00
+[INFO ]15:06:43 matter_service.go:1309: Clean xuejian 's deleted matters
+[INFO ]20:45:36 footprint_service.go:90: Ip:[ Cost:77 Uri:/api/preference/fetch Params:{}
+[INFO ]20:47:59 footprint_service.go:90: Ip:[ Cost:327 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]20:47:59 footprint_service.go:90: Ip:[ Cost:538 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]20:47:59 footprint_service.go:90: Ip:[ Cost:541 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]20:48:03 footprint_service.go:90: Ip:[ Cost:55 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]20:48:11 footprint_service.go:90: Ip:[ Cost:68 Uri:/api/share/page Params:{"page":["0"],"pageSize":["500"]}
+[INFO ]20:48:13 footprint_service.go:90: Ip:[ Cost:8 Uri:/api/matter/page Params:{"deleted":["true"],"orderDeleteTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"]}
+[INFO ]20:48:15 footprint_service.go:90: Ip:[ Cost:22 Uri:/api/matter/page Params:{"deleted":["true"],"orderDeleteTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"]}
+[INFO ]20:48:17 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:54:12 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]20:54:12 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]20:54:12 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]20:54:12 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]20:54:12 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]20:54:12 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]20:54:12 dashboard_service.go:72: ETL dashboard data from 2023-07-08 00:00:00 to 2023-07-08 23:59:59
+[INFO ]20:54:12 footprint_service.go:107: Delete footprint data before 2023-07-01 00:00:00
+[INFO ]20:54:12 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]20:54:12 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]20:54:12 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]20:54:12 task_service.go:170: scan task not enabled.
+[INFO ]20:54:12 tank_application.go:153: App started at http://localhost:6010
+[INFO ]20:54:12 dashboard_service.go:77:  2023-07-08 already exits. delete it and insert new one.
+[INFO ]20:54:13 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 73, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]20:54:13 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]20:54:13 dashboard_service.go:72: ETL dashboard data from 2023-07-09 00:00:00 to 2023-07-09 23:59:59
+[INFO ]20:54:13 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 9, totalInvokeNum = 73, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]20:54:13 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 181
+[INFO ]20:54:21 footprint_service.go:90: Ip:[ Cost:36 Uri:/api/preference/fetch Params:{}
+[INFO ]20:54:21 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]20:54:23 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:54:30 footprint_service.go:90: Ip:[ Cost:51 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]20:55:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:55:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]20:55:17 footprint_service.go:90: Ip:[ Cost:8 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]20:55:19 footprint_service.go:90: Ip:[ Cost:7 Uri:/api/share/page Params:{"page":["0"],"pageSize":["500"]}
+[INFO ]20:55:20 footprint_service.go:90: Ip:[ Cost:13 Uri:/api/matter/page Params:{"deleted":["true"],"orderDeleteTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"]}
+[INFO ]20:55:20 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:57:36 footprint_service.go:90: Ip:[ Cost:9 Uri:/api/matter/page Params:{"deleted":["true"],"orderDeleteTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"]}
+[INFO ]20:57:37 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:57:39 footprint_service.go:90: Ip:[ Cost:27 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]20:58:01 tank_logger.go:34: [cron job] Every day 00:00 maintain log file.
+[WARN ]20:58:01 tank_config.go:139: read config file /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]20:58:01 tank_config.go:171: use config file: /Users/xuejian/GolandProjects/tank_master/tmp/conf/tank.json
+[INFO ]20:58:01 tank_config.go:172: file storage location: /Users/xuejian/GolandProjects/tank_master/tmp/matter
+[INFO ]20:58:01 task_service.go:65: [cron job] Every day 00:10 delete Footprint data of 8 days ago.
+[INFO ]20:58:01 task_service.go:77: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]20:58:01 task_service.go:89: [cron job] Everyday 01:00 Clean deleted matters.
+[INFO ]20:58:01 task_service.go:170: scan task not enabled.
+[INFO ]20:58:01 footprint_service.go:96: Immediately delete Footprint data of 8 days ago.
+[INFO ]20:58:01 dashboard_service.go:51: Immediately ETL dashboard data.
+[INFO ]20:58:01 tank_application.go:153: App started at http://localhost:6010
+[INFO ]20:58:01 footprint_service.go:107: Delete footprint data before 2023-07-01 00:00:00
+[INFO ]20:58:01 dashboard_service.go:72: ETL dashboard data from 2023-07-08 00:00:00 to 2023-07-08 23:59:59
+[INFO ]20:58:01 dashboard_service.go:77:  2023-07-08 already exits. delete it and insert new one.
+[INFO ]20:58:01 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 86, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]20:58:01 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]20:58:01 dashboard_service.go:72: ETL dashboard data from 2023-07-09 00:00:00 to 2023-07-09 23:59:59
+[INFO ]20:58:01 dashboard_service.go:77:  2023-07-09 already exits. delete it and insert new one.
+[INFO ]20:58:01 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 22, totalInvokeNum = 86, UV = 1, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]20:58:01 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 81
+[INFO ]20:58:08 footprint_service.go:90: Ip:[ Cost:7 Uri:/api/preference/fetch Params:{}
+[INFO ]20:58:09 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]20:58:10 footprint_service.go:90: Ip:[ Cost:9 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]20:58:13 footprint_service.go:90: Ip:[ Cost:61 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:01:12 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:01:12 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]21:01:12 footprint_service.go:90: Ip:[ Cost:12 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:01:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:01:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]21:01:16 footprint_service.go:90: Ip:[ Cost:59 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:01:19 footprint_service.go:90: Ip:[ Cost:15 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:01:19 footprint_service.go:90: Ip:[ Cost:69 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]21:01:20 footprint_service.go:90: Ip:[ Cost:82 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]21:01:21 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:03:26 footprint_service.go:90: Ip:[ Cost:52 Uri:/api/matter/page Params:{"deleted":["true"],"orderDeleteTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"]}
+[INFO ]21:03:27 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:03:32 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:03:36 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:03:45 footprint_service.go:90: Ip:[ Cost:10 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]21:03:46 footprint_service.go:90: Ip:[ Cost:9 Uri:/api/share/page Params:{"page":["0"],"pageSize":["500"]}
+[INFO ]21:03:47 footprint_service.go:90: Ip:[ Cost:8 Uri:/api/matter/page Params:{"deleted":["true"],"orderDeleteTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"]}
+[INFO ]21:03:48 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:04:04 footprint_service.go:90: Ip:[ Cost:22 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:04:33 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]21:04:34 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]21:04:34 footprint_service.go:90: Ip:[ Cost:13 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:05:16 footprint_service.go:90: Ip:[ Cost:1 Uri:/api/preference/fetch Params:{}
+[INFO ]21:05:16 footprint_service.go:90: Ip:[ Cost:0 Uri:/api/user/info Params:{}
+[INFO ]21:05:16 footprint_service.go:90: Ip:[ Cost:109 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:05:20 footprint_service.go:90: Ip:[ Cost:33 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:05:20 footprint_service.go:90: Ip:[ Cost:66 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]21:05:20 footprint_service.go:90: Ip:[ Cost:129 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]21:05:21 footprint_service.go:90: Ip:[ Cost:2 Uri:/api/preference/fetch Params:{}
+[INFO ]21:05:23 footprint_service.go:90: Ip:[ Cost:29 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]21:05:23 footprint_service.go:90: Ip:[ Cost:46 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]21:05:23 footprint_service.go:90: Ip:[ Cost:157 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]21:05:24 footprint_service.go:90: Ip:[ Cost:23 Uri:/api/user/page Params:{"orderCreateTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[WARN ]21:05:26 base_bean.go:49: cache item doesn't exist with sessionId = 04eaa174-11ce-4eef-729f-a734b97dba51
+[INFO ]21:05:26 footprint_service.go:90: Ip:[ Cost:96 Uri:/api/user/logout Params:{}
+[ERROR]21:05:43 tank_router.go:98: panic on user_controller.go:115 用户名或密码错误
+[INFO ]21:05:43 footprint_service.go:90: Ip:[ Cost:530 Uri:/api/user/login Params:{"password":["******"],"username":["xuejian"]}
+[INFO ]21:05:53 footprint_service.go:90: Ip:[ Cost:161 Uri:/api/user/login Params:{"password":["******"],"username":["xuejian"]}
+[INFO ]21:05:53 footprint_service.go:90: Ip:[ Cost:21 Uri:/api/matter/page Params:{"deleted":["false"],"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["500"],"puuid":["root"]}
+[INFO ]21:07:31 footprint_service.go:90: Ip:[ Cost:31 Uri:/api/share/page Params:{"page":["0"],"pageSize":["500"]}
+[INFO ]16:35:42 tank_logger.go:89: maintain log

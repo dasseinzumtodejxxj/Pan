@@ -1,0 +1,227 @@
+# 蓝眼云盘
+
+## 注意事项
+每次版本升级时需要修改以下内容。
+
+1. build/pack/build.bat
+    VERSION_NAME=tank-x.x.x
+
+2. build/pack/build.sh
+    VERSION_NAME=tank-x.x.x
+
+3. core/config.go
+    VERSION = x.x.x
+
+4. readme.md 修改 eyeblue/tank:x.x.x
+    eyeblue/tank:x.x.x
+
+
+## 新版本发布流程
+1.docker版本的发布。[参考](https://blog.eyeblue.cn/home/article/510f9316-9ca1-40fe-b1b3-5285505a527d)
+
+```
+cd tank根目录
+# 停止旧版本，并删除旧版本
+docker container stop xxx
+docker container prune
+# 构建新版本 (最后的.不能少)
+docker build -t eyeblue/tank:x.x.x .
+# 本地测试
+docker run --name dockermysql -p 13306:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=tank -e MYSQL_USER=tank -e MYSQL_PASSWORD=tank123 -v ~/data/dockermysql:/var/lib/mysql -e TZ=Asia/Shanghai -d mysql:5.7 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+docker run --name tank -p 6010:6010 --link dockermysql:mysql -v ~/data/dockermatter:/data/build/matter -d eyeblue/tank:x.x.x
+# 没问题后，推送到远程
+docker push eyeblue/tank:x.x.x
+```
+
+2.linux版本的发布。
+
+a. 执行`src/tank/build/pack/build.sh`脚本
+b. 上传 tank-x.x.x.linux-amd64.tar.gz 到蓝眼云盘
+c. 在github上发布新版本。
+
+3.windows版本发布
+
+a. 执行`src/tank/build/pack/build.bat`脚本
+b. 上传 tank-x.x.x.windows-x86_64.zip 到蓝眼云盘
+c. 在github上发布新版本。
+
+3.更新tank-doc 下载内容
+
+## useful commands
+go get xxx/xxx
+go mod tidy
+
+
+tank-3.1.5 2022-03-21
+1. Support Sqlite.
+2. Upgrade webpack.
+
+1. 支持Sqlite
+2. 升级了前端的webpack
+
+
+tank-3.1.4 2022-03-20
+1. Support Sqlite.
+2. Upgrade webpack.
+
+1. 支持Sqlite
+2. 升级了前端的webpack
+
+
+
+tank-3.1.3 2022-03-10
+1. Add kkfileview 3.x support
+2. Fix search bug https://github.com/eyebluecn/tank/issues/148
+3. Fix bug of totalSize in dashboard
+
+1. 添加了kkfileview 3.x的预览支持
+2. 修复了一个搜索的bug https://github.com/eyebluecn/tank/issues/148
+3. 修复了文件大小统计的bug
+
+
+tank-3.1.2 2021-01-02
+1. Add scan manually once feature
+2. Add disable recycle bin feature
+3. WebDAV use hard delete now
+4. Support Chinese Username
+5. Normal user cannot change itself space limit
+6. Support the order sort by filename, size and update time
+7. Hide the side menu on phone by default
+8. Friendly hint for large file upload.
+9. Cancel during uploading.
+
+1. 添加了手动扫描一次的功能
+2. 添加了禁用回收站功能
+3. WebDAV中的删除采用硬删除
+4. 支持中文的用户名
+5. 普通用户不能再修改自己的空间限制
+6. 文件支持按照名称排序，按照大小排序，按照修改日期排序
+7. 手机端默认隐藏左边菜单
+8. 大文件上传友好性提示
+9. 可以取消文件上传
+
+
+tank-3.1.1 2020-09-08
+1. Add upload folder feature.
+2. Fix the share auth bug.
+
+1. 添加了文件夹上传功能
+2. 修复了分享时需要登陆的问题
+
+tank-3.1.0
+1. Reconstruct frontend by typescript+react+antd.
+2. Enhance the webdav ability.
+3. Add charset in mysql config.
+4. Add preview_config.
+5. Add delete user feature.
+6. Add Scan config.
+7. Add recycle bin feature.
+
+1. 前后进行了一次完全的重构。 采用Typescript+React+Antd
+2. 增强了WebDav的能力，现在能够适配更多的WebDav客户端了
+3. 数据库配置项中添加了编码支持，可以支持emoji了
+4. 添加了预览引擎配置，用户可以使用自己的引擎来预览特定格式文件
+5. 添加了删除用户的功能，删除用户后会清空用户所有的文件和痕迹
+6. 添加了扫描功能，可以定时同步物理文件到蓝眼云盘中
+7. 增加回收站功能
+
+
+2019-10-13
+tank-3.0.6
+1. Fix the Bug of limit size.
+2. Add the drag feature for uploading files.
+3. Fix the page bug of list.
+
+2019-08-13
+tank-3.0.5
+1. Fix the Bug of sharing. [#56](https://github.com/eyebluecn/tank/issues/56)
+
+2019-06-11
+tank-3.0.4
+1. Use relative assets in tank-front.
+2. Fix the total size check bug.
+3. Add feature. Creating user.
+
+2019-05-31
+tank-3.0.3
+1. Add default utf8 charset when creating tables.
+2. Fix some i18n bug
+3. Add a document link in the preference page.
+
+
+2019-05-27
+tank-3.0.2
+1. fix https://github.com/eyebluecn/tank/issues/51
+2. fix https://github.com/eyebluecn/tank/issues/52
+3. fix i18n issue for moving files.
+
+
+2019-05-23
+tank-3.0.0
+1. 分享文件夹
+2. 使用口令提取分享的文件
+3. 允许用户自行注册
+4. 本地文件映射功能
+5. 存放的物理文件，按照物理目录排布
+6. 允许用户名进行登录
+7. 访问日志只保留7天数据
+8. 下载文件夹，下载文件夹大小设上限
+9. 支持Webdav
+10. 增加用户文件总大小，增加用户文件总大小限制
+11. 加入管理员变身功能。使用用户的身份进行登录。
+12. i18n
+
+
+2019-01-07
+tank-2.0.0
+1. 添加了图片文件裁剪图的缓存，全面提升缩略图的访问速度。
+2. 添加了用户访问时的日志，可以追踪到每个ip的访问，下载情况
+3. 添加常用文件的预览功能，图片，音频，视频，文档一键预览。
+4. 添加了大盘统计功能，每日访问情况，每日PV，UV一目了然。日环比，周环比数据清晰呈现。
+5. 安装过程全面升级，采用可视化的安装过程，真正做到了傻瓜式安装。安装过程中可以创建数据库表，可以指定管理员账号。
+6. UI风格进行了微调，色调更加沉稳大气，布局更加紧致。
+7. 搜索功能全面增强，可以从自己所有的文件中按名字搜索。
+8. 上传功能全面增强，可支持最多1000个文件同时上传，上传过程不会因为切换页面而打断。
+9. 网站的应用数据和普通文件可以分开管理，在网站偏好中可以自行设置其可见性。
+10. Docker全面瘦身，剥离了对MySQL的强依赖，使得Docker部署更为容易。
+11. 后端逻辑全面重新梳理，MVC过程更加严谨。日志，全局异常更加规范。做到每个错误可追踪。
+12. 对mysql的支持更全面，支持mysql5.5及以上版本。
+
+
+2018-07-25
+tank-1.0.5
+1. 添加了根据url抓取文件的功能。
+
+
+2018-07-03
+tank-1.0.4
+1. 添加了文件分段功能，支持断点续传。
+
+
+2018-04-12
+tank-1.0.3
+1. 添加了多文件同时上传的功能.
+2. 开发情况下有可能上传的文件路径没有权限，添加了更多提示.
+
+
+
+2018-01-19
+tank-1.0.2
+1. 修复了下载时无法估算文件大小的bug，header头重添加了Content-Type. [#2](https://github.com/eyebluecn/tank/issues/2)
+2. 修复了移动端样式混乱的问题.[#3](https://github.com/eyebluecn/tank/issues/3)
+3. 修复了文夹层数无上限的bug. [#4](https://github.com/eyebluecn/tank/issues/4)
+4. 修复了文件夹自己移动到自己后就全部消失的bug. [#8](https://github.com/eyebluecn/tank/issues/8)
+5. 统一不能删除用户，但是可以禁用或者启用用户. [#9](https://github.com/eyebluecn/tank/issues/9)
+
+
+2018-01-12
+tank-1.0.1
+1. 修复面包屑回退的bug [#1](https://github.com/eyebluecn/tank/issues/1)
+2. 修复移动文件时，可能移到其他人的文件夹下的bug
+3. 新增404页面
+4. 移除掉一些没用的代码
+
+
+2018-01-01
+tank-1.0.0
+完成基本核心功能

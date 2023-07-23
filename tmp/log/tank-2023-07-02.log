@@ -1,0 +1,13 @@
+try to delete log file %s14:47:48 cron.go:136: /Users/xuejian/GolandProjects/tank_master/tmp/log/tank-2023-06-02.log
+[ERROR]14:47:48 tank_logger.go:122: log file /Users/xuejian/GolandProjects/tank_master/tmp/log/tank-2023-06-02.log not exist, skip
+[INFO ]14:52:48 dashboard_service.go:72: ETL dashboard data from 2023-07-01 00:00:00 to 2023-07-01 23:59:59
+[INFO ]14:52:49 dashboard_service.go:77:  2023-07-01 already exits. delete it and insert new one.
+[INFO ]14:52:49 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 37, totalInvokeNum = 37, UV = 1, totalUV = 1, matterNum = 1, totalMatterNum = 1
+[INFO ]14:52:49 dashboard_service.go:101: Dashboard Summery 2. matterSize = 212703, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 15
+[INFO ]14:52:49 dashboard_service.go:72: ETL dashboard data from 2023-07-02 00:00:00 to 2023-07-02 23:59:59
+[INFO ]14:52:49 dashboard_service.go:98: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 37, UV = 0, totalUV = 1, matterNum = 0, totalMatterNum = 1
+[INFO ]14:52:49 dashboard_service.go:101: Dashboard Summery 2. matterSize = 0, totalMatterSize = 212703, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]14:57:48 footprint_service.go:107: Delete footprint data before 2023-06-24 00:00:00
+[INFO ]18:47:16 matter_service.go:1309: Clean xuejian 's deleted matters
+[INFO ]17:45:17 matter_service.go:1309: Clean xuejian 's deleted matters
+[INFO ]19:44:44 tank_logger.go:89: maintain log
